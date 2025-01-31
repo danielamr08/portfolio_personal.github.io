@@ -297,6 +297,12 @@ span {
   transform: scale(1.1);
 }
 
+.pdf{
+  vertical-align: middle;
+  padding-right: 5px;
+  font-size: 30px;
+}
+
 /* About */
 .about {
   display: flex;
@@ -580,7 +586,28 @@ span {
 }
 
 .portfolio-item p {
+  display: flex;
   margin-bottom: 2rem;
+  text-align: justify;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-img{
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  width: 100%; /* Asegúrate de que ocupe todo el ancho */
+}
+
+.img-movil{
+  max-width: 30%;
+  height: 100%;
+}
+
+.img-worship{
+  width: 150%; /* Cambia el valor al tamaño que necesites */
+  height: auto; /* Mantiene la proporción */
 }
 
 /* Contacto */
@@ -618,9 +645,14 @@ span {
 
 .cv{
   background-color: var(--color-span);
-  /* border-radius: 10px;  */
-  width: 20rem;
+  width: 15rem;
   text-align: center;
+}
+
+.btns-home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-content{
